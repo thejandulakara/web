@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #f8f3f3;
+    margin-bottom: 30px;
+}
+
+.dinosaur {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px;
+  
+}
+
+.dinosaur img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.dinosaur .description {
+    flex: 1;
+}
+
+.dinosaur h2 {
+    font-size: 24px;
+    color: #fcf7f7;
+    margin-bottom: 10px;
+}
+
+.dinosaur p {
+    font-size: 16px;
+    color: #f9f6f6;
+    background-color: #272a2c;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #2196f3;
+}
